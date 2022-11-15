@@ -147,16 +147,11 @@ console.log(`Test of positiveArray, original array:`, arrayThree,  `positive arr
 //     CodeWars(https://www.codewars.com/). Then describe it 
 //     here in a comment, write the function, and test it!
 
-// The problem I picked form CodeWars was: "You were camping with your friends far away from home, but when it's time to go back, you realize that your fuel is running out and the nearest pump is 50 miles away! You know that on average, your car runs on about 25 miles per gallon. There are 2 gallons left. Considering these factors, write a function that tells you if it is possible to get to the pump or not. Function should return true if it is possible and false if not."
+// The problem I picked was "You were camping with your friends far away from home, but when it's time to go back, you realize that your fuel is running out and the nearest pump is 50 miles away! You know that on average, your car runs on about 25 miles per gallon. There are 2 gallons left. Considering these factors, write a function that tells you if it is possible to get to the pump or not. Function should return true if it is possible and false if not."
 
 // The starter code it gave me was: const zeroFuel = (distanceToPump, mpg, fuelLeft) => {};
 
 //My solution was: 
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
-  return distanceToPump <= mpg * fuelLeft;
+  return 
 };
-
-console.log(`Test of zeroFuel, should return true:`, zeroFuel (50, 25, 2))
-console.log(`Test of zeroFuel, should return false:`, zeroFuel (100, 50, 1))
-console.log(`Test of zeroFuel, should return true:`, zeroFuel (150, 25, 10))
-console.log(`Test of zeroFuel, should return false:`, zeroFuel (5, 25, 0))
