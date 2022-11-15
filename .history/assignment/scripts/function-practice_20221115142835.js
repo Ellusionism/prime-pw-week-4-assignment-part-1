@@ -130,16 +130,7 @@ function positiveArray(array) {
       newArray.push(array[i])
     }
   }
-  return newArray;
 }
-
-const arrayOne = [-3, -2, -1, 0, 1, 2, 3];
-const arrayTwo = [-14, 93, 18, -22, 55, -26, -40, 67];
-const arrayThree = [0, -10, -20, -30, -40, -50];
-
-console.log(`Test of positiveArray, original array:`, arrayOne,  `positive array:`, positiveArray(arrayOne));
-console.log(`Test of positiveArray, original array:`, arrayTwo,  `positive array:`, positiveArray(arrayTwo));
-console.log(`Test of positiveArray, original array:`, arrayThree,  `positive array:`, positiveArray(arrayThree));
 
 
 

@@ -133,7 +133,7 @@ function positiveArray(array) {
   return newArray;
 }
 
-const arrayOne = [-3, -2, -1, 0, 1, 2, 3];
+const arrayOne = [-1, 0, 1, 2, 3, 4, 5];
 const arrayTwo = [-14, 93, 18, -22, 55, -26, -40, 67];
 const arrayThree = [0, -10, -20, -30, -40, -50];
 

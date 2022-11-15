@@ -27,28 +27,23 @@ function addNumbers( firstNumber, secondNumber ) {
 
 console.log(`Test addNumbers, 3 + 5 =`, addNumbers(3, 5));
 console.log(`Test addNumbers, 4 + 9 =`, addNumbers(4, 9));
-console.log(`Test addNumbers, 89 + 137 =`, addNumbers(89, 137));
+console.log(`Test addNumbers, 89 + 137 =`, addNumbers(3, 5));
 
 
 
 // 4. Function to multiply three numbers & return the result
-function multiplyThree(numOne, numTwo, numThree){
-  return numOne * numTwo * numThree;
-}
-console.log(`Test multiplyThree, 4 * 8 * 2 =`, multiplyThree(4, 8, 2));
-console.log(`Test multiplyThree, 19 * 23 * 67 =`, multiplyThree(19, 23, 67));
-console.log(`Test  multiplyThree, 453 * 842 * 106 =`, multiplyThree(453, 842, 106));
+function multiplyThree( ){
 
+}
 
 
 // 5. Function that will return true if a number is positive, 
 //    or greater than zero, and false otherwise
 function isPositive( number ) {
   if ( number > 0 ){
-    return true;
-  } else {
-    return false;
+    return;
   }
+    return;
 }
 // Call the function to test each outcome (true & false) 
 // Write a separate console.log statement for each outcome
@@ -59,36 +54,16 @@ console.log( 'isPositive - should say false', isPositive(-3) );
 
 // 6. Function to return the _last_ item in an array. If the 
 //    array is empty, return `undefined`.
-
 function getLast( array ) {
-  return array[array.length - 1];
+
 }
-
-console.log(`Test getLast, should say 19:`, getLast([1, 4, 6, 19]));
-console.log(`Test getLast, should say 48:`, getLast([12, 24, 36, 48]));
-console.log(`Test getLast, should say 0:`, getLast([123, 456, 789, 0]));
-console.log(`Test getLast, should say undefined:`, getLast([]));
-
-
 
 // 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
-
 function find( value, array ){
-  for (i=0; i<array.length; i++){
-    if ( array[i] === value ){
-      return true;
-    }
-  }
-  return false;
+  
 }
-
-console.log(`Test find, should say true:`, find(5, [1, 4, 5, 19]));
-console.log(`Test find, should say false:`, find(6, [8, -2, 19, 4]));
-console.log(`Test find, should say true:`, find(-194, [86, 435, -712, -194]));
-console.log(`Test find, should say false:`, find(-1, [1, 8, 99, 42]));
-
 
 // ----------------------
 // Stretch Goals
@@ -96,50 +71,21 @@ console.log(`Test find, should say false:`, find(-1, [1, 8, 99, 42]));
 // 8. Function to check if a letter is the first letter in a 
 //    string. Return true if it is, and false otherwise
 function isFirstLetter(letter, string) {
-  for (i=0; i<string.length; i++) {
-    if (string[i].charAt(0) === letter) {
-      return true;
-    }
-  }
-  return false;
+
 }
 console.log( 'isFirstLetter - should say true', isFirstLetter('a', 'apple') );
 console.log( 'isFirstLetter - should say false', isFirstLetter('z', 'apple') );
 
 // 9. Function to return the sum of all numbers in an array
-function sumAll(numbers) {
-  let sum = 0;
-  for (i=0; i<numbers.length; i++) {
-    sum += numbers[i];
-  }
+function sumAll( ) {
+  let sum = 0
+  // TODO: loop to add items
   return sum;
 }
-
-console.log(`Test of sumAll, should return 10:`, sumAll([1, 2, 3, 4]));
-console.log(`Test of sumAll, should return 456:`, sumAll([123, -456, 789]));
-console.log(`Test of sumAll, should return -2:`, sumAll([4, 0, -9, 3]));
 
 // 10. Function to return a new array of all positive (greater than zero)
 //     numbers contained in an input array. If there are no positive numbers
 //     return an empty array. Note: The input array should not change.
-
-function positiveArray(array) {
-  let newArray = [];
-  for (i=0; i<array.length; i++) {
-    if (array[i] > 0) {
-      newArray.push(array[i])
-    }
-  }
-  return newArray;
-}
-
-const arrayOne = [-3, -2, -1, 0, 1, 2, 3];
-const arrayTwo = [-14, 93, 18, -22, 55, -26, -40, 67];
-const arrayThree = [0, -10, -20, -30, -40, -50];
-
-console.log(`Test of positiveArray, original array:`, arrayOne,  `positive array:`, positiveArray(arrayOne));
-console.log(`Test of positiveArray, original array:`, arrayTwo,  `positive array:`, positiveArray(arrayTwo));
-console.log(`Test of positiveArray, original array:`, arrayThree,  `positive array:`, positiveArray(arrayThree));
 
 
 
