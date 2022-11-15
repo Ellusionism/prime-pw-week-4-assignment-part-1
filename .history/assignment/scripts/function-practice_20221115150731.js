@@ -19,7 +19,7 @@ function helloName( name ) {
 // Remember to call the function to test
 console.log('Test - should say "Hello, (name)!":', helloName(`Mike`));
 console.log('Test - should say "Hello, (name)!":', helloName(`Dane`));
-console.log('Test - should say "Hello, (name)!":', helloName(`MEGAN (-_-)`));
+console.log('Test - should say "Hello, (name)!":', helloName(`MEGAN (-n-)`));
 
 
 // 3. Function to add two numbers together & return the result
